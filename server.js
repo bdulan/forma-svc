@@ -3,6 +3,9 @@ var cors = require('cors')
 var app = express();
 var path = require('path');
 
+var PORT = 3000
+
+
 app.use(cors());
 app.use("/static", express.static('./static/'));
 
@@ -12,7 +15,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/score', function(req, res) {
-    res.sendFile(path.join(__dirname + '/score_page.html'));
+    res.sendFile(path.join(__dirname + '/score.html'));
 });
 
 app.get('/stats', function(req, res) {
@@ -31,6 +34,6 @@ app.get('/schedule', function(req, res) {
     res.sendFile(path.join(__dirname + '/schedule.html'));
 });
 
-app.listen(3002, function () {
-    console.log('CORS-enabled web server listening on port 3002')
-  })
+app.listen(PORT, function () {
+    console.log('CORS-enabled web server listening on port ' + PORT)
+})
