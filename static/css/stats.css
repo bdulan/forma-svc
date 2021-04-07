@@ -1,0 +1,395 @@
+/*
+	@name forma
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px;  margin-left: auto; margin-right: auto;  }
+
+#_bg__ml_tech___profile {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(46.75,45,45,0.97);
+}
+
+
+#_101295782_185738456069288_8541161158134988800_n_1 {
+	top: 65px;
+	left: 1307px;
+	width: 67px;
+	height: 66px;
+}
+
+
+#home {
+	top: 79px;
+	left: 82px;
+	width: 93px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#find_your_score {
+	top: 79px;
+	left: 226px;
+	width: 210px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FBA704;
+}
+
+
+#schedule {
+	top: 79px;
+	left: 427px;
+	width: 210px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#faq {
+	top: 79px;
+	left: 634px;
+	width: 95px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#maya_condor {
+	top: 183px;
+	left: 239px;
+	width: 508px;
+	height: 197px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#line_24 {
+	top: 331px;
+	left: 123px;
+	width: 1184.48px;
+	height: 6.03px;
+}
+
+#group_245 {
+	top: 413px;
+	left: 731px;
+	width: 475px;
+	height: 427px;
+}
+
+#maya {
+	top: 18px;
+	left: 190px;
+	width: 226px;
+	height: 57.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#condor {
+	top: 77px;
+	left: 192px;
+	width: 211px;
+	height: 57.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#september_13__1996 {
+	top: 191px;
+	left: 215px;
+	width: 211px;
+	height: 57.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_24 {
+	top: 136px;
+	left: 111px;
+	width: 211px;
+	height: 57.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_5_7_ {
+	top: 229px;
+	left: 139px;
+	width: 70px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#_140_pounds {
+	top: 287px;
+	left: 149px;
+	width: 139px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#full_back__shoulders__neck {
+	top: 350px;
+	left: 206px;
+	width: 278px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#first_name_ {
+	top: 0px;
+	left: 28px;
+	width: 228px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#last_name_ {
+	top: 59px;
+	left: 28px;
+	width: 228px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#age_ {
+	top: 118px;
+	left: 28px;
+	width: 228px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#date_of_birth_ {
+	top: 173px;
+	left: -4px;
+	width: 228px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	color:#FBA704;
+}
+
+
+#height_ {
+	top: 229px;
+	left: 28px;
+	width: 228px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#weight_ {
+	top: 287px;
+	left: 28px;
+	width: 228px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#focus_areas_ {
+	top: 350px;
+	left: 28px;
+	width: 228px;
+	height: 94.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+	color:#FBA704;
+}
+
+#group_244 {
+	top: 356px;
+	left: 1280px;
+	width: 27px;
+	height: 7px;
+}
+
+#rectangle_163 {
+	top: 0px;
+	left: 0px;
+	width: 7px;
+	height: 7px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(251,167.36,5,1);
+}
+
+
+#rectangle_167 {
+	top: 0px;
+	left: 20px;
+	width: 7px;
+	height: 7px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(251,167.36,5,1);
+}
+
+
+#rectangle_168 {
+	top: 0px;
+	left: 10px;
+	width: 7px;
+	height: 7px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(251,167.36,5,1);
+}
+
+
+#_87 {
+	top: 344px;
+	left: 211px;
+	width: 497px;
+	height: 611px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 300px;
+	text-align: center;
+	color:#FBA704;
+}
+
+
+#average_confidence_score {
+	top: 721px;
+	left: 229px;
+	width: 449px;
+	height: 104px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+
+/* Add your custom CSS here */

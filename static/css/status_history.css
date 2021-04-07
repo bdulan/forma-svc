@@ -1,0 +1,161 @@
+/*
+	@name forma
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px;  margin-left: auto; margin-right: auto;  }
+
+#_bg__scoring_page {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(47,45,45,1);
+}
+
+
+#_101295782_185738456069288_8541161158134988800_n_1 {
+	top: 65px;
+	left: 1307px;
+	width: 67px;
+	height: 66px;
+}
+
+
+#home {
+	top: 79px;
+	left: 82px;
+	width: 93px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#find_your_score {
+	top: 79px;
+	left: 226px;
+	width: 210px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FBA704;
+}
+
+
+#schedule {
+	top: 79px;
+	left: 427px;
+	width: 210px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#faq {
+	top: 79px;
+	left: 634px;
+	width: 95px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#maya_s_confidence_score {
+	top: 196px;
+	left: 94px;
+	width: 718px;
+	height: 76px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#april_3__2021 {
+	top: 252px;
+	left: 94px;
+	width: 352px;
+	height: 65px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 30px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#screen_shot_2021_03_14_at_1_15_1 {
+	top: 441px;
+	left: 94px;
+	width: 225px;
+	height: 217px;
+}
+
+
+#screen_shot_2021_03_14_at_1_15_2 {
+	top: 448px;
+	left: 782px;
+	width: 225px;
+	height: 217px;
+}
+
+
+#screen_shot_2021_03_14_at_1_15_3 {
+	top: 740px;
+	left: 782px;
+	width: 225px;
+	height: 224px;
+}
+
+
+#screen_shot_2021_03_14_at_1_15_4 {
+	top: 733px;
+	left: 94px;
+	width: 225px;
+	height: 224px;
+}
+
+
+#the_score_is_determined_by_a_number_of_factors__stance__angles__accuracy__pivotal_movement__a_higher_score_equates_to_better_and_more_functional_performances_and_form__the_baselines_are_an_average_of_scores_from_previous_sessions_you_ve_recorded_with_forma__the_max_score_you_can_get_is_1_ {
+	top: 304px;
+	left: 94px;
+	width: 1252px;
+	height: 98px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 20px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+
+/* Add your custom CSS here */
