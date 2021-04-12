@@ -4,12 +4,23 @@ var app = express();
 var path = require('path');
 
 var PORT = 3000
-
+var pages = ['','score','stats','history','calendar','schedule']
 
 app.use(cors());
 app.use("/static", express.static('./static/'));
 
-// viewed at http://localhost:3001
+app.get('*', function (req, res, next) {
+    // catch all pages that dont work
+    var pageName = req.url.split("/")[1].toString();
+    if (!pages.includes(pageName)){
+        console.log('Page is not included');
+        res.sendFile(path.join(__dirname + '/404.html'));
+    } else {
+        next();
+    }
+});
+
+// viewed at http://localhost:3000
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
