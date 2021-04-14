@@ -60,7 +60,8 @@
 			<div id="group_223"  >
 
 				<div id="group_222"  >
-					<div id="rectangle_162"  ></div>
+					<div id="rectangle_162" onclick="myFunction()" ></div>
+					<button onclick="myFunction()">Click me</button>
 					<div id="record" >
 						Record
 					</div>
@@ -216,5 +217,11 @@
 			</div>
 
 		</div>
+		<script>
+			function myFunction() {
+				alert('hi');
+			  document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+			}
+		</script>			
 	</body>
 </html>

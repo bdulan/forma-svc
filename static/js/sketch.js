@@ -4,7 +4,7 @@ let pose;
 let skeleton;
 
 function setup() {
-  createCanvas(615, 660);
+  createCanvas(640, 480);
   video = createCapture(VIDEO);
   video.hide();
   poseNet = ml5.poseNet(video, modelLoaded);
@@ -51,4 +51,9 @@ function draw() {
       line(a.position.x, a.position.y, b.position.x, b.position.y);
     }
   }
+}
+
+function myFunction() {
+  console.log('hi');
+  document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
 }
