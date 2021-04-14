@@ -54,21 +54,24 @@
 				April
 			</div> -->
 			<div id="favorite_pose__warrior_pose__location__san_franciso__ca_specialty_" >
-				Favorite  Pose:  Warrior Pose <span class="char">%E2%80%A8L</span>Location: San Franciso, CA<br/>Specialty: 
+				Favorite  Pose:  Warrior Pose <span class="char">%E2%80%A8</span>Location: San Franciso, CA <br/> <button onclick="schedule()">Schedule</button> <br>
 			</div>
 			<div id="line_25"  ></div>
 			<div id="kathlyn_monroe" >
 				Kathlyn Monroe
 			</div>
 			<div id="favorite_pose__child_s_pose_location__salt_lake_city__ut_specialty_" >
-				Favorite  Pose:  Child's Pose<span class="char">%E2%80%A8L</span>Location: Salt Lake City, UT<br/>Specialty: 
+				Favorite  Pose:  Child's Pose<span class="char">%E2%80%A8</span>Location: Salt Lake City, UT <br/> <button onclick="schedule()">Schedule</button> <br>
 			</div>
 			<div id="line_26"  ></div>
 			<div id="maya_kimoto" >
 				Maya Kimoto
 			</div>
 			<div id="favorite_pose__corpse_pose_location__honolulu__hi_specialty_" >
-				Favorite  Pose:  Corpse Pose<span class="char">%E2%80%A8L</span>Location: Honolulu, HI<br/>Specialty: 
+				Favorite  Pose:  Corpse Pose<span class="char">%E2%80%A8</span>Location: Honolulu, HI <br/> <button onclick="schedule()">Schedule</button> <br>
+			</div>
+			<div>
+				Test
 			</div>
 			<!-- <div id="line_27"  ></div>
 			<div id="line_28"  ></div>
@@ -201,5 +204,10 @@
 
 		</div>
 		<script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+		<script>
+			function schedule(){
+			  window.location.href = '/calendar'
+		  }
+	  </script>
 	</body>
 </html>
