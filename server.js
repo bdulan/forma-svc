@@ -22,7 +22,7 @@ app.get('*', function (req, res, next) {
 
 // viewed at http://localhost:3000
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/real.html'));
+    res.sendFile(path.join(__dirname + '/testpage.html'));
 });
 
 app.get('/score', function(req, res) {

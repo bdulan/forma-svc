@@ -22,13 +22,18 @@
 		<meta name="description" content="" >
 		<link rel="StyleSheet" href="static/css/score.css" />
 		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=4"></script>
-		<script src="static/js/p5.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/addons/p5.sound.min.js"></script>
-		<script src="https://unpkg.com/ml5@0.4.2/dist/ml5.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- load p5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+  <!-- load ml5.js -->
+  <script src="https://unpkg.com/ml5@0.4.2/dist/ml5.min.js"></script>
+  <!-- keep the video in center of browser -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/addons/p5.sound.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<meta charset="utf-8" />
 
 	</head>
@@ -49,7 +54,8 @@
 				FAQ
 			</div></a>
 			<div id="posnet_2">
-				<script src="static/js/sketch.js"></script>
+				<div id="videoContainer"></div>
+				<p id="status" style="color: white;">Loading Model...</p>
 			</div>
 			<!-- <img src="static/skins/posnet_2.png" id="posnet_2" /> -->
 			<div id="hi__maya_" >
@@ -217,11 +223,6 @@
 			</div>
 
 		</div>
-		<script>
-			function myFunction() {
-				alert('hi');
-			  document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
-			}
-		</script>			
+		<script src="static/js/posenet.js"></script>		
 	</body>
 </html>

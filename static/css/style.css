@@ -4,3 +4,8 @@ html {
 body {
     background-color: rgba(46.75,45,45,0.97);
 }
+
+.forma_buttons {
+    background-color: #FBA705 !important;
+    border-color: #FBA705
+}
