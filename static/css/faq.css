@@ -1,0 +1,477 @@
+/*
+	@name forma
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1439px;  margin-left: auto; margin-right: auto;  }
+
+#_bg__faq {
+	top: 0px;
+	left: 0px;
+	width: 1439px;
+	height: 1198px;
+	background:rgba(47,45,45,1);
+}
+
+
+#_101295782_185738456069288_8541161158134988800_n_1 {
+	top: 65px;
+	left: 1307px;
+	width: 67px;
+	height: 66px;
+}
+
+
+#home {
+	top: 79px;
+	left: 82px;
+	width: 93px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#find_your_score {
+	top: 79px;
+	left: 226px;
+	width: 210px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#schedule {
+	top: 79px;
+	left: 427px;
+	width: 210px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#faq {
+	top: 79px;
+	left: 634px;
+	width: 95px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FBA704;
+}
+
+
+#frequently_asked_questions {
+	top: 196px;
+	left: 94px;
+	width: 718px;
+	height: 76px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#find_your_score_ek1 {
+	top: 285px;
+	left: 203px;
+	width: 498px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#do_i_need_specific_software_to_use_forma_ {
+	top: 347px;
+	left: 217px;
+	width: 820px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#expand_all {
+	top: 291px;
+	left: 1134px;
+	width: 489px;
+	height: 54px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 18px;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#expand_all_ek1 {
+	top: 568px;
+	left: 1134px;
+	width: 489px;
+	height: 54px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 18px;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#expand_all_ek2 {
+	top: 843px;
+	left: 1133px;
+	width: 489px;
+	height: 54px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 18px;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#postural_health {
+	top: 565px;
+	left: 203px;
+	width: 498px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#forma_ {
+	top: 847px;
+	left: 202px;
+	width: 121px;
+	height: 71px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#line_35 {
+	top: 332px;
+	left: 180.5px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#line_39 {
+	top: 396px;
+	left: 180.5px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#line_36 {
+	top: 891px;
+	left: 180px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#line_37 {
+	top: 612px;
+	left: 180px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#__ {
+	top: 342px;
+	left: 1162px;
+	width: 63px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#which_pose_is_best_for_beginners_ {
+	top: 473px;
+	left: 216.5px;
+	width: 820px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#line_41 {
+	top: 522px;
+	left: 180px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#___ek1 {
+	top: 468px;
+	left: 1161.5px;
+	width: 63px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#what_can_i_expect_from_my_first_appointment_ {
+	top: 409px;
+	left: 216.5px;
+	width: 820px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#line_40 {
+	top: 458px;
+	left: 180px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#___ek2 {
+	top: 404px;
+	left: 1161.5px;
+	width: 63px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#is_my_therapist_a_licensed_pt_ {
+	top: 638px;
+	left: 207px;
+	width: 820px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#line_42 {
+	top: 687px;
+	left: 170.5px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#___ek3 {
+	top: 633px;
+	left: 1152px;
+	width: 63px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#how_can_i_tell_if_virtual_therapy_is_working_ {
+	top: 764px;
+	left: 206.5px;
+	width: 820px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#line_43 {
+	top: 813px;
+	left: 170px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#___ek4 {
+	top: 759px;
+	left: 1151.5px;
+	width: 63px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#how_is_a_physical_therapist_able_to_analyze_me_virtually_ {
+	top: 700px;
+	left: 206.5px;
+	width: 820px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#line_44 {
+	top: 749px;
+	left: 170px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#___ek5 {
+	top: 695px;
+	left: 1151.5px;
+	width: 63px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#what_are_the_benefits_of_forma__ {
+	top: 919px;
+	left: 207px;
+	width: 820px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#line_45 {
+	top: 968px;
+	left: 170.5px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#___ek6 {
+	top: 914px;
+	left: 1152px;
+	width: 63px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#how_long_does_my_free_trial_last_ {
+	top: 981px;
+	left: 206.5px;
+	width: 820px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#line_47 {
+	top: 1030px;
+	left: 170px;
+	width: 1026px;
+	height: 0px;
+}
+
+
+#___ek7 {
+	top: 976px;
+	left: 1151.5px;
+	width: 63px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 36px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+
+/* Add your custom CSS here */
