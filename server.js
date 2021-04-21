@@ -4,7 +4,7 @@ var app = express();
 var path = require('path');
 
 var PORT = 3000
-var pages = ['','score','stats','history','calendar','schedule']
+var pages = ['score','stats','history','calendar','schedule','faq','home']
 
 app.use(cors());
 app.use("/static", express.static('./static/'));
@@ -43,6 +43,14 @@ app.get('/calendar', function(req, res) {
 
 app.get('/schedule', function(req, res) {
     res.sendFile(path.join(__dirname + '/schedule.html'));
+});
+
+app.get('/faq', function(req, res) {
+    res.sendFile(path.join(__dirname + '/faq.html'));
+});
+
+app.get('/home', function(req, res) {
+    res.sendFile(path.join(__dirname + '/home.html'));
 });
 
 app.listen(PORT, function () {
