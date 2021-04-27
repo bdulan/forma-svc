@@ -58,7 +58,7 @@ function draw() {
       let y = pose.keypoints[i].position.y;
 
       fill(251, 167, 5);
-      ellipse(x, y, 16, 16);
+      ellipse(x, y, 8, 8);
 
     }
 

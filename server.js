@@ -2,9 +2,11 @@ var express = require('express');
 var cors = require('cors')
 var app = express();
 var path = require('path');
+const ngrok = require('ngrok');
+
 
 var PORT = 3000
-var pages = ['score','stats','history','calendar','schedule','faq','home']
+var pages = ['score','stats','history','calendar','schedule','faq','home','score-mvp']
 
 app.use(cors());
 app.use("/static", express.static('./static/'));
@@ -59,4 +61,8 @@ app.get('/home', function(req, res) {
 
 app.listen(PORT, function () {
     console.log('CORS-enabled web server listening on port ' + PORT)
-})
+});
+(async function() {
+    const url = await ngrok.connect(PORT);
+    console.log(url);
+  })();
