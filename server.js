@@ -29,6 +29,10 @@ app.get('/score', function(req, res) {
     res.sendFile(path.join(__dirname + '/score.html'));
 });
 
+app.get('/score-mvp', function(req, res) {
+    res.sendFile(path.join(__dirname + '/score-mvp.html'));
+});
+
 app.get('/stats', function(req, res) {
     res.sendFile(path.join(__dirname + '/stats.html'));
 });

@@ -1,0 +1,433 @@
+/*
+	@name forma
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px;  margin-left: auto; margin-right: auto;  }
+
+#mycanvas {
+	margin-top: 150px;
+	margin-left: 80px;
+}
+
+#_bg__squat_assessment {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(46.75,45,45,0.97);
+}
+
+
+#_101295782_185738456069288_8541161158134988800_n_1 {
+	top: 65px;
+	left: 1307px;
+	width: 67px;
+	height: 66px;
+}
+
+
+#home {
+	top: 79px;
+	left: 82px;
+	width: 93px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#find_your_score {
+	top: 79px;
+	left: 226px;
+	width: 210px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FBA704;
+}
+
+
+#schedule {
+	top: 79px;
+	left: 427px;
+	width: 210px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#faq {
+	top: 79px;
+	left: 634px;
+	width: 95px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#squat_assessment {
+	top: 133px;
+	left: 744px;
+	width: 643px;
+	height: 197px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#instructions {
+	top: 216px;
+	left: 802px;
+	width: 520px;
+	height: 150px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 48px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#front_view {
+	top: 565px;
+	left: 771px;
+	width: 181px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#side_view {
+	top: 565px;
+	left: 1236px;
+	width: 181px;
+	height: 66px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_1_ {
+	top: 358px;
+	left: 757px;
+	width: 36px;
+	height: 65.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#first__give_yourself_enough_space_so_that_you_can_be_in_full_view_of_your_webcam_and_in_the_center_of_the_frame_ {
+	top: 358px;
+	left: 780px;
+	width: 604px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_2_ {
+	top: 431px;
+	left: 757px;
+	width: 31px;
+	height: 65.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#next__observe_the_squat_poses_below__you_ll_be_holding_each_of_these_poses_for_5_seconds_ {
+	top: 432px;
+	left: 780px;
+	width: 604px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_3_ {
+	top: 680px;
+	left: 757px;
+	width: 31px;
+	height: 65.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#when_you_re_ready_to_perform_the_assessment__press_record__you_ll_have_10_seconds_to_get_into_position__follow_the_prompts_on_the_screen_ {
+	top: 681px;
+	left: 780px;
+	width: 604px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_4_ {
+	top: 755px;
+	left: 757px;
+	width: 31px;
+	height: 65.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	text-align: left;
+	color:#FBA704;
+}
+
+
+#when_you_re_finished__hit_stop_and_then_view_score_below_to_see_your_results_ {
+	top: 756px;
+	left: 780px;
+	width: 604px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#wait_10_seconds {
+	top: 524px;
+	left: 977px;
+	width: 169px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#line_24 {
+	top: 324px;
+	left: 775px;
+	width: 566px;
+	height: 3px;
+	background:#FBA704;
+}
+
+#group_223 {
+	top: 880px;
+	left: 86px;
+	width: 115px;
+	height: 44px;
+}
+#group_222 {
+	top: 0px;
+	left: 0px;
+	width: 115px;
+	height: 44px;
+}
+
+#rectangle_162 {
+	top: 0px;
+	left: 0px;
+	width: 115px;
+	height: 44px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background:rgba(251,167.36,5,1);
+}
+
+
+#record {
+	top: 0px;
+	left: -0px;
+	width: 120px;
+	height: 61.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+#group_224 {
+	top: 880px;
+	left: 602px;
+	width: 97px;
+	height: 44px;
+}
+#group_222_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 97px;
+	height: 44px;
+}
+
+#rectangle_162_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 97px;
+	height: 44px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background:rgba(251,167.36,5,1);
+}
+
+
+#play {
+	top: 0px;
+	left: -1px;
+	width: 103.14px;
+	height: 61.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+#group_227 {
+	top: 880px;
+	left: 1171px;
+	width: 166px;
+	height: 44px;
+}
+#group_222_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 166px;
+	height: 44px;
+}
+
+#rectangle_162_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 166px;
+	height: 44px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background:rgba(251,167.36,5,1);
+}
+
+
+#view_score {
+	top: 0px;
+	left: 1px;
+	width: 168px;
+	height: 61.5px;
+	overflow: hidden;
+	font-family: Dosis;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#mask_group {
+	top: 64px;
+	left: 1306px;
+	width: 69px;
+	height: 69px;
+}
+
+
+#front_squat_outline_1 {
+	top: 505px;
+	left: 885px;
+	width: 82px;
+	height: 156px;
+}
+
+
+#side_squat_outline_1 {
+	top: 511px;
+	left: 1135px;
+	width: 119px;
+	height: 148px;
+}
+
+
+#arrow_1 {
+	top: 583px;
+	left: 964px;
+	width: 148px;
+	height: 0px;
+}
+
+
+#mask_group_ek1 {
+	top: 296px;
+	left: 127px;
+	width: 552px;
+	height: 493px;
+}
+
+
+
+/* Add your custom CSS here */
